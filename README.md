@@ -10,30 +10,53 @@ or geography.
 
 We do ask that you follow our [Code of Conduct](https://geek.zone/code-of-conduct/).
 
-## Special Considerations
-### Workflow
+## Workflow
+1. Assign yourself to an issue by commenting `.take` on the issue you want to work on - no need to ask for permission.
+2. If the issue has the "epic" label, split it into specific tasks that you can complete in one sitting.
+    1. Log a new issue
+    2. Include "relates to epic issue #*x*" in the issue body
+    3. Assign yourself to the issue you just created using the same method as above.
+3. Start working on the issue using [Test Driven Development](https://youtu.be/llaUBH5oayw).
+   1. Write tests ***first*** - vital
+   2. Write code
+4. When you are done, create a pull request.
 
-- We use [spaces](https://www.youtube.com/watch?v=SsoOG6ZeyUI) ([PEP8](https://www.python.org/dev/peps/pep-0008/#tabs-or-spaces)).
-- We prefer the rebase and merge workflow.
-
-- Issues are prioritised with the [Eisenhower Method](https://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method).
-- If an issue receives no activity for 8 weeks, the assignee will be removed so that others know they can have a go.
-- We do not close old issues. All ideas are welcome and will be developed as soon as possible.
-
-### How we do
-- Update your issues with frequent comments.
+## How we do
+- [PEP8](https://www.python.org/dev/peps/pep-0008/#tabs-or-spaces)
+    <br>We use [spaces](https://www.youtube.com/watch?v=SsoOG6ZeyUI).
+- [Test Driven Development](https://youtu.be/llaUBH5oayw) is vital
+    <br>You must not write any code unless it is to make a failing test pass.
+- Merging
+  <br>We prefer the rebase and merge workflow.
+- [Eisenhower Method](https://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method)
+  <br>Issues are prioritised according to their importance and priority.
 - Keep PRs small.
-- We are,
-  - [async first](https://about.gitlab.com/company/culture/all-remote/asynchronous/).
-  - placeless.
+  <br>This helps reviewers to approve them quickly.
+- [async first](https://about.gitlab.com/company/culture/all-remote/asynchronous/).
+  <br>We prefer to work asynchronously as much as possible.
+- Placeless
+  <br>We work without regard to geography.
 
-### Naming
+## Communication
+It is important to asynchronously communicate with other people on the project.
 
-- PR & issue titles should be descriptive.
-- Branches should be named<br />
+- Old ≠ bad
+  <br>We do not close issues until they are complete. All ideas are welcome and will be developed as soon as possible.
+- Frequent comments
+  <br>Please share your progress in a comment on each issue that you are assigned to at least once per month.
+- Inactive issues
+  <br>If an issue receives no activity for 12 weeks, it will be unassigned to communicate to others that they can have a go.
+
+## Naming
+
+- Issue titles should be descriptive 
+- PR titles should be descriptive so that you do not have to look up an issue to know what it does.
+- Branches should be lower-case 
+- Branches should use the format<br />
   `[type]-[issue number]-[issue_title]`
-- Replace [illegal branch characters](https://git-scm.com/docs/git-check-ref-format) with `_`. For example,<br />
- `feature-42-Min_Password_Length`
+- Replace [illegal branch characters](https://git-scm.com/docs/git-check-ref-format) with `_`. 
+- For example,<br />
+ `feature-42-min_password_length`
 
 Branch type names are,
 
@@ -47,15 +70,19 @@ Branch type names are,
 
 ## License
 
-Geek.Zone is a member of the [Open Source Initiative](https://opensource.org/osi-affiliate-membership), so all our projects are published under GPLv3. You can find the full text of this in our `LICENSE` files. Any
+As a member of the [Open Source Initiative](https://opensource.org/osi-affiliate-membership), all Geek.Zone code and software is published under GPLv3. You can find the full text of this in our `LICENSE` files. Any
 contributions you make will be published under these provisions.
 
-Side note: Even though the correct spelling is "licence", we use the USA spelling of `LICENSE` as this has become the
-[defacto standard](https://xkcd.com/927/) in tech.
+_Side note: Even though the correct spelling is "licence", we use the USA spelling of `LICENSE` as this has become the
+[defacto standard](https://xkcd.com/927/) in tech._
 
 ## ...and Finally...
 
-- If you need a hand, please just submit a ticket and we will be more than happy to assist. (ticket=issue)
-- You are encouraged to add yourself to `humans.txt` during your first issue, if you want to.
-- You are welcome to join our [Discord](http://geek.zone/discord) and chat with us in the #dev channel.  
-- Geek.Zone members are invited to the Geek.Zone org on GitHub so that they can contribute directly. Members are also part of a fantastic community of like-minded geeks. Membership only costs £1+donation each year so take the [Geek.Zone/DevInduction](https://geek.zone/devinduction)!
+- Help!
+  <br>If you need a hand, please just create an issue and we will be more than happy to assist.
+- Attributions
+  <br>You are encouraged to add yourself to `humans.txt` during your first issue, if you want to.
+- Discord
+  <br>Join our [Discord](http://geek.zone/discord) and chat with us in the #dev channel.  
+- Members get trunk
+  <br>Geek.Zone members are invited to the Geek.Zone org on GitHub so that they can contribute directly. Members are also part of a fantastic community of like-minded geeks. Membership only costs £1+donation each year so start by taking the [Geek.Zone/DevInduction](https://geek.zone/devinduction) now!
