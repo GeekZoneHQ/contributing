@@ -50,22 +50,26 @@ It is important to asynchronously communicate with other people on the project.
 ## Naming
 
 - Issue titles should be descriptive 
-- PR titles should be descriptive so that you do not have to look up an issue to know what it does.
-- Branches should be lower-case 
-- Branches should use the format<br />
-  `[type]-[issue number]-[issue_title]`
-- Replace [illegal branch characters](https://git-scm.com/docs/git-check-ref-format) with `_`. 
-- For example,<br />
- `feature-42-min_password_length`
+- PR titles must be descriptive so that you do not have to look up an issue to know what it does.
+- Branch names must
+  - be lower-case 
+  - use the format<br />
+    `[type]-[issue number]-[issue_title]`
+  - replace [illegal branch characters](https://git-scm.com/docs/git-check-ref-format) with `_`. 
+  - For example,<br />
+   `feat-42-min_password_length`
+- Commit messages must follow [Conventional Commits](https://conventionalcommits.org/).
+
+Your IDE can probably do most of this for you.
 
 Branch type names are,
 
-| type | Description |
-| --- | ----------- |
-|`feature` | Feature I'm adding or expanding| 
-|`bug`|Bug fix. Rectifying a fault in existing functionality.|
-|`junk`|Throwaway branch created to experiment. Will not be merged.|
-|`doc`|Only changes documentation; no code is altered. Will not trigger CI/CD.|
+| type   | Description                                                             |
+|--------|-------------------------------------------------------------------------|
+| `feat` | Feature I'm adding or expanding                                         | 
+| `fix`  | Bug fix. Rectifying a fault in existing functionality.                  |
+| `junk` | Throwaway branch created to experiment. Will not be merged.             |
+| `doc`  | Only changes documentation; no code is altered. Will not trigger CI/CD. |
 
 
 ## License
