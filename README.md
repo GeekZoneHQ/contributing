@@ -26,6 +26,8 @@ We do ask that you follow our [Code of Conduct](https://geek.zone/code-of-conduc
     <br>We use [spaces](https://www.youtube.com/watch?v=SsoOG6ZeyUI).
 - [Test Driven Development](https://youtu.be/llaUBH5oayw) is vital
     <br>You must not write any code unless it is to make a failing test pass. [Obey the Testing Goat!](https://www.obeythetestinggoat.com/pages/book.html#toc)
+- New repos
+    <br>We have a [repo template](https://github.com/GeekZoneHQ/template-repo) that you should use to start a new Geek.Zone repo.
 - Merging
   <br>We prefer the rebase and merge workflow.
 - [Eisenhower Method](https://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method)
