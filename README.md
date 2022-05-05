@@ -15,7 +15,7 @@ We do ask that you follow our [Code of Conduct](https://geek.zone/code-of-conduc
 2. If the issue has the "epic" label, split it into specific tasks that you can complete in one sitting.
     1. Log a new issue
     2. Include "relates to epic issue #*x*" in the issue body
-    3. Assign yourself to the issue you just created using the same method as above.
+    3. Assign yourself to the issue you just created using `.take` as above.
 3. Start working on the issue using [Test Driven Development](https://youtu.be/llaUBH5oayw).
    1. Write tests ***first*** - vital
    2. Write code
@@ -25,7 +25,7 @@ We do ask that you follow our [Code of Conduct](https://geek.zone/code-of-conduc
 - [PEP8](https://www.python.org/dev/peps/pep-0008/#tabs-or-spaces)
     <br>We use [spaces](https://www.youtube.com/watch?v=SsoOG6ZeyUI).
 - [Test Driven Development](https://youtu.be/llaUBH5oayw) is vital
-    <br>You must not write any code unless it is to make a failing test pass.
+    <br>You must not write any code unless it is to make a failing test pass. [Obey the Testing Goat!](https://www.obeythetestinggoat.com/pages/book.html#toc)
 - Merging
   <br>We prefer the rebase and merge workflow.
 - [Eisenhower Method](https://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method)
