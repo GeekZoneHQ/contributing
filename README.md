@@ -11,11 +11,11 @@ or geography.
 We do ask that you follow our [Code of Conduct](https://geek.zone/code-of-conduct/).
 
 ## Workflow
-1. Assign yourself to an issue by commenting `.take` on the issue you want to work on - no need to ask for permission.
+1. Assign yourself to an issue by commenting `/mine` on the issue you want to work on - no need to ask for permission.
 2. If the issue has the "epic" label, split it into specific tasks that you can complete in one sitting.
     1. Log a new issue
     2. Include "relates to epic issue #*x*" in the issue body
-    3. Assign yourself to the issue you just created using `.take` as above.
+    3. Assign yourself to the issue you just created using `/mine` as above.
 3. Start working on the issue using [Test Driven Development](https://youtu.be/llaUBH5oayw).
    1. Write tests ***first*** - vital
    2. Write code
