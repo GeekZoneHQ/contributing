@@ -19,6 +19,7 @@ We do ask that you follow our [Code of Conduct](https://geek.zone/code-of-conduc
 3. Start working on the issue using [Test Driven Development](https://youtu.be/llaUBH5oayw).
    1. Write tests ***first*** - vital
    2. Write code
+3. Update the documentaiton in the `docs` directory.
 4. When you are done, create a pull request.
 
 ## How we do
