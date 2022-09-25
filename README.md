@@ -18,8 +18,8 @@ We do ask that you follow our [Code of Conduct](https://geek.zone/code-of-conduc
     3. Assign yourself to the issue you just created using `/mine` as above.
 3. Start working on the issue using [Test Driven Development](https://youtu.be/llaUBH5oayw).
    1. Write tests ***first*** - vital
-   2. Write code
-3. Update the documentaiton in the `docs` directory.
+   2. Write code to pass tests
+3. Update the documentaiton in the `docs` directory. Make one in the root if it does not already exist.
 4. When you are done, create a pull request.
 
 ## How we do
