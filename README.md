@@ -74,6 +74,8 @@ Branch type names are,
 | `junk` | Throwaway branch created to experiment. Will not be merged.             |
 | `doc`  | Only changes documentation; no code is altered. Will not trigger CI/CD. |
 
+## I Can Haz Meemz
+At Geek.Zone, we try not to take ourselves too seriously. You are wholeheartedly encouraged to include easter eggs, nerd culture references and to generally make all our systems as funny as possible. Keep it family friendly though!
 
 ## License
 
